@@ -1,0 +1,145 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #ff0077;
+  }
+  
+  /* Offer Card Styling */
+  .offer-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .offer-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+    transition: border-color 0.3s;
+  }
+  
+  .offer-card.selected {
+    border: 2px solid pink;
+  }
+  
+  .most-popular {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background: #ff0077;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  .offer-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .offer-details input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .offer-discount {
+    background: #ff0077;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 10px;
+  }
+  
+  .offer-price {
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  .offer-price .original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 12px;
+  }
+  
+  .options-container {
+    margin-top: 10px;
+    padding: 10px;
+    background: #fdf5f9;
+    border-radius: 5px;
+  }
+  
+  .options-container div {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .options-container select {
+    margin-left: 10px;
+  }
+  
+  /* Footer & Button Styling */
+  .free-delivery {
+    color: #ff0077;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  
+  .total-price {
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  #addCartBtn {
+    display: block;
+    width: 100%;
+    background: #ff0077;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #ff0077;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
